@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>BSIT Industry-Ready Portfolio</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="board" aria-hidden="true"><svg preserveAspectRatio="xMidYMid slice" viewBox="0 0 1000 700">
+      <g class="tr">
+        <path id="p1" d="M0 80H220L260 120H520L560 80H1000" />
+        <path id="p2" d="M0 330H140L180 370H420L460 330H700L740 370H1000" />
+        <path d="M0 560H320L360 520H640L680 560H1000" />
+        <path d="M120 0V200L160 240V700" />
+        <path d="M820 0V160L780 200V460L820 500V700" />
+      </g>
+      <g fill="var(--bg)" stroke="var(--trace)" stroke-width="2">
+        <circle cx="220" cy="80" r="6" />
+        <circle cx="560" cy="80" r="6" />
+        <circle cx="180" cy="370" r="6" />
+        <circle cx="740" cy="370" r="6" />
+        <circle cx="360" cy="520" r="6" />
+        <circle cx="680" cy="560" r="6" />
+        <circle cx="120" cy="200" r="6" />
+        <circle cx="780" cy="200" r="6" />
+      </g>
+      <path class="pulse" d="M0 80H220L260 120H520L560 80H1000" />
+      <path class="pulse b" d="M0 330H140L180 370H420L460 330H700L740 370H1000" />
+    </svg></div>
+
+  <nav aria-label="Sections">
+    <div class="wrap">
+      <a href="#home">Home</a><a href="#profile">Profile</a><a href="#skills">Skills</a><a
+        href="#projects">Projects</a><a href="#solving">Problem-solving</a><a href="#employ">Employability</a><a
+        href="#resume">Resume</a><a href="#certs">Certificates</a><a href="#github">GitHub</a><a
+        href="#contact">Contact</a><a href="#reflection">Reflection</a>
+      <button id="theme" type="button" aria-label="Toggle light or dark board">Light / Dark</button>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <header id="home" class="hero">
+      <div>
+        <span class="chip">BSIT Graduate · Open to work</span>
+        <h1>Mark Bartolata</h1>
+        <p>I build web systems that connect a clean interface to a reliable database. I know HTML, CSS, JavaScript, SQL
+          and Git, and every skill below links to a project that proves it.</p>
+        <div class="btns"><a class="btn fill" href="#projects">View my projects</a><a class="btn" href="resume.pdf"
+            download>Download resume</a><a class="btn" href="#contact">Contact me</a></div>
+      </div>
+      <div class="ic">
+        <div class="photo"><img src="images/mark-photo.jpg" alt="Portrait of Mark Vince Bartolata" width="292"
+            height="300"></div>
+      </div>
+    </header>
+
+    <section id="profile">
+      <div class="sh">
+        <h2>Professional profile</h2>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <h3>About me</h3>
+          <p>I am a BSIT graduate from Datamex College of Saint Adeline with skills in HTML, CSS and JavaScript. I enjoy
+            turning a messy real-world process into a simple system people can use. I value honest work, clear
+            documentation and learning in public. I want to work as a Junior Web Developer, building clean and useful
+            websites and web systems.</p>
+        </div>
+        <div class="card">
+          <h3>Identity</h3>
+          <ul>
+            <li>Specialization: BSIT</li>
+            <li>Target position: Junior Web Developer</li>
+            <li>Preferred field: Web Development</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Principle</h3>
+          <p><strong style="color:var(--gold)">Keep learning, keep building.</strong> I practice a little every day and
+            finish what I start.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="sh">
+        <h2>Technical skills</h2>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <h3>Programming</h3>
+          <div class="sk">
+            <div class="l"><span>Python</span><span>Beginner</span></div>
+            <div class="bar"><i style="width:35%"></i></div>
+          </div>
+          <div class="sk">
+            <div class="l"><span>Java / C++ / C#</span><span>Beginner</span></div>
+            <div class="bar"><i style="width:35%"></i></div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Web development</h3>
+          <div class="sk">
+            <div class="l"><span>HTML / CSS</span><span>Beginner</span></div>
+            <div class="bar"><i style="width:35%"></i></div>
+          </div>
+          <div class="sk">
+            <div class="l"><span>JavaScript / Bootstrap</span><span>Beginner</span></div>
+            <div class="bar"><i style="width:35%"></i></div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Database</h3>
+          <div class="sk">
+            <div class="l"><span>SQL / MySQL</span><span>Beginner</span></div>
+            <div class="bar"><i style="width:35%"></i></div>
+          </div>
+          <div class="sk">
+            <div class="l"><span>ERD / design</span><span>Beginner</span></div>
+            <div class="bar"><i style="width:35%"></i></div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Tools, network and security</h3>
+          <div class="sk">
+            <div class="l"><span>Git / GitHub</span><span>Beginner</span></div>
+            <div class="bar"><i style="width:35%"></i></div>
+          </div>
+          <div class="sk">
+            <div class="l"><span>TCP/IP, DNS, troubleshooting</span><span>Beginner</span></div>
+            <div class="bar"><i style="width:35%"></i></div>
+          </div>
+          <div class="sk">
+            <div class="l"><span>Security fundamentals</span><span>Beginner</span></div>
+            <div class="bar"><i style="width:35%"></i></div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Data, cloud and AI</h3>
+          <div class="sk">
+            <div class="l"><span>Excel / Sheets analysis</span><span>Beginner</span></div>
+            <div class="bar"><i style="width:35%"></i></div>
+          </div>
+          <div class="sk">
+            <div class="l"><span>Deployment / hosting</span><span>Beginner</span></div>
+            <div class="bar"><i style="width:35%"></i></div>
+          </div>
+          <div class="sk">
+            <div class="l"><span>Responsible AI use</span><span>Beginner</span></div>
+            <div class="bar"><i style="width:35%"></i></div>
+          </div>
+        </div>
+      </div>
+      <p class="note">I am still early in my journey and keep building these skills through practice and projects.</p>
+    </section>
+
+    <section id="projects">
+      <div class="sh">
+        <h2>Projects</h2>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <h3>Project 1:HOOPEDIA – The Basketball Knowledge Library</h3>
+          <p>A basketball information website designed to provide users with knowledge about basketball, including its history, rules, positions, teams, and players. The website features organized content and a simple, user-friendly design to make basketball information easy to access and understand.</p><span class="tag">HTML</span><span
+            class="tag">CSS</span><span class="tag">JAVASCRIPT</span>
+          <div class="btns"><a class="btn" href="#">Live demo</a><a class="btn" href="#">Repository</a></div>
+        </div>
+        <div class="card">
+          <h3>Project 2: Student Management System</h3>
+          <p>A web-based system designed to manage student records efficiently. It allows administrators to add, edit, delete, search, and view student information. The system includes login authentication, input validation, and a MySQL database to keep student records organized and secure.
+          </p><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JAVASCRIPT</span>
+          <div class="btns"><a class="btn" href="#">View analysis</a><a class="btn" href="#">Repository</a></div>
+        </div>
+        <div class="card">
+          <h3>Project 3: Specialization project</h3>
+          <p>A project in your chosen area (cybersecurity, networking, cloud, mobile or AI) that shows where you want to
+            grow.</p><span class="tag">[Tech]</span><span class="tag">[Tech]</span>
+          <div class="btns"><a class="btn" href="#">Details</a><a class="btn" href="#">Repository</a></div>
+        </div>
+      </div>
+      <p class="note">Each repository README covers overview, problem, objectives, users, technologies, features,
+        architecture, database design, screenshots, installation, usage, testing, limitations and future work. At least
+        one project needs a live link.</p>
+    </section>
+
+    <section id="solving">
+      <div class="sh">
+        <h2>Problem-solving</h2>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <h3>1. Identify</h3>
+          <p>Find out what the problem really is. What is happening, and what should be happening instead?</p>
+        </div>
+        <div class="card">
+          <h3>2. Check</h3>
+          <p>Test possible causes one at a time, starting with the simplest, until the real cause is found.</p>
+        </div>
+        <div class="card">
+          <h3>3. Document</h3>
+          <p>Write down the cause, the fix and what I learned so the problem is easier to solve next time.</p>
+        </div>
+      </div>
+      <details open style="margin-top:18px">
+        <summary>Example: Website button does not work</summary>
+        <div><b>Identify:</b> clicking the button does nothing.<br><b>Check:</b> look for typos in the button's ID, open
+          the browser console for errors, and confirm the script file is linked.<br><b>Document:</b> the ID in the
+          JavaScript did not match the HTML. I fixed the name and noted to double-check IDs next time.</div>
+      </details>
+    </section>
+
+    <section id="employ">
+      <div class="sh">
+        <h2>Employability</h2>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <h3>Career direction</h3>
+          <p>I am aiming to become a Junior Web Developer, starting with front-end work in HTML, CSS and JavaScript,
+            then growing into building complete web systems.</p>
+        </div>
+        <div class="card">
+          <h3>Professional habits</h3>
+          <ul>
+            <li>Show up on time and finish tasks on schedule</li>
+            <li>Ask questions when I am stuck</li>
+            <li>Keep my work neat and documented</li>
+            <li>Accept feedback and keep improving</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>My next goal</h3>
+          <ul>
+            <li>Build and publish a simple personal website</li>
+            <li>Practice JavaScript through small projects</li>
+            <li>Learn Git and GitHub to share my code</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume">
+      <div class="sh">
+        <h2>Resume</h2>
+      </div>
+      <div class="card">
+        <p>One-page IT resume with summary, technical skills, education, projects, certifications and achievements.</p>
+        <div class="btns"><a class="btn fill" href="resume.pdf" download>Download resume (PDF)</a><a class="btn"
+            href="#">LinkedIn profile</a></div>
+      </div>
+    </section>
+
+    <section id="certs">
+      <div class="sh">
+        <h2>Certificates and achievements</h2>
+      </div>
+      <div class="grid cgrid">
+        <div class="card cert"><button type="button" class="cthumb"
+            aria-label="Enlarge: Certificate of participation for the QA 101 webinar"><img src="images/cert-qa-101.jpg"
+              alt="Certificate of participation for the QA 101 webinar" loading="lazy"></button>
+          <h3>QA 101: Software Quality | Bug Tracking and Manual Testing</h3>
+          <p>UpskillTechPH Training Services</p><span class="tag">August 5, 2026 · 1 hour webinar</span>
+        </div>
+        <div class="card cert"><button type="button" class="cthumb"
+            aria-label="Enlarge: Certificate of participation for Digital Office Mastery"><img
+              src="images/cert-digital-office.jpg" alt="Certificate of participation for Digital Office Mastery"
+              loading="lazy"></button>
+          <h3>Digital Office Mastery: Essential Skills for Computer &amp; Administrative Staff</h3>
+          <p>Ethel Programming Computer Programming Services</p><span class="tag">August 5, 2026 · 1 hour webinar</span>
+        </div>
+        <div class="card cert"><button type="button" class="cthumb"
+            aria-label="Enlarge: Certificate of participation for Cyber Awareness"><img
+              src="images/cert-cyber-awareness.jpg" alt="Certificate of participation for Cyber Awareness"
+              loading="lazy"></button>
+          <h3>Cyber Awareness: Cyber Threats in 2026 and How to Stay Safe</h3>
+          <p>UpskillTechPH Training Services</p><span class="tag">August 2026 · 1 hour webinar</span>
+        </div>
+        <div class="card cert"><button type="button" class="cthumb"
+            aria-label="Enlarge: Certificate of participation for Next Gen Arduino"><img src="images/cert-arduino.jpg"
+              alt="Certificate of participation for Next Gen Arduino" loading="lazy"></button>
+          <h3>Next Gen Arduino: Innovation Through Embedded Technology</h3>
+          <p>Ethel Programming Computer Programming Services</p><span class="tag">August 6, 2026 · 1 hour webinar</span>
+        </div>
+      </div>
+      <p class="note">These are certificates of participation for attended webinars, not professional certifications.
+      </p>
+      <dialog id="lb"><button type="button" id="lbx" aria-label="Close">&times;</button><img id="lbi" alt=""></dialog>
+    </section>
+
+    <section id="github">
+      <div class="sh">
+        <h2>GitHub</h2>
+      </div>
+      <div class="card">
+        <p>Source code, commit history and documentation for every project.</p>
+        <div class="btns"><a class="btn fill" href="https://github.com/bartolatamark26-stack" target="_blank" rel="noopener">Open my
+            GitHub</a></div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="sh">
+        <h2>Contact</h2>
+      </div>
+      <div class="card">
+        <h3>Reach me</h3>
+        <p>Email: mark.bartolata@gmail.com<br>LinkedIn: https://www.linkedin.com/in/mark-vince-bartolata-141315445<br>GitHub: https://github.com/bartolatamark26-stack</p>
+      </div>
+    </section>
+
+    <section id="reflection">
+      <div class="sh">
+        <h2>Reflection</h2>
+      </div>
+      <div class="card">
+        <p>Before BSIT, I only used computers and had little idea how websites and software were actually made. Studying
+          information technology showed me that every app starts with simple building blocks, and for me those are HTML,
+          CSS and JavaScript. HTML gives a page its structure, CSS gives it style, and JavaScript makes it respond to
+          the user.</p>
+        <p>The hardest part has been staying patient when my code does not work. I have learned to slow down, read the
+          error, check one thing at a time and write down the fix. Attending webinars on software testing, cyber
+          awareness, office skills and Arduino also showed me how many areas IT covers and how much there is still to
+          learn.</p>
+        <p>I am still a beginner, and I know I need more practice, more projects and more confidence. I want to become a
+          Junior Web Developer who builds clean, useful websites and keeps learning every day. I am ready to start
+          because I am willing to learn, accept feedback and work hard to improve.</p>
+      </div>
+    </section>
+  </main>
+  <footer>Built with HTML, CSS and JavaScript · Mark Bartolata · BSIT, Datamex College of Saint Adeline</footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
